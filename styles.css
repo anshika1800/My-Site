@@ -1,0 +1,30 @@
+body{
+    overflow: hidden;
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    place-items: center;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 65px;
+    color: papayawhip;
+}
+
+span{
+    color: teal;
+    -webkit-text-stroke: .3px papayawhip;
+}
+
+img{
+    width: 255px;
+    height: 255px;
+    border-radius: 50%; 
+    border: 10px dashed papayawhip;
+}
